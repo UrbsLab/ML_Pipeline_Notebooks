@@ -1,0 +1,32 @@
+digraph Tree {
+node [shape=box] ;
+0 [label="Alkaline phosphatase (U/L) <= 198.0\nentropy = 0.9572\nsamples = 132\nvalue = [82, 50]"] ;
+1 [label="Iron <= 71.0\nentropy = 0.8066\nsamples = 85\nvalue = [64, 21]"] ;
+0 -> 1 [labeldistance=2.5, labelangle=45, headlabel="True"] ;
+2 [label="Ferritin (ng/mL) <= 24.0\nentropy = 0.971\nsamples = 20\nvalue = [8, 12]"] ;
+1 -> 2 ;
+3 [label="entropy = 0.0\nsamples = 4\nvalue = [4, 0]"] ;
+2 -> 3 ;
+4 [label="entropy = 0.8113\nsamples = 16\nvalue = [4, 12]"] ;
+2 -> 4 ;
+5 [label="Mean Corpuscular Volume <= 109.25\nentropy = 0.5802\nsamples = 65\nvalue = [56, 9]"] ;
+1 -> 5 ;
+6 [label="entropy = 0.4587\nsamples = 62\nvalue = [56, 6]"] ;
+5 -> 6 ;
+7 [label="entropy = 0.0\nsamples = 3\nvalue = [0, 3]"] ;
+5 -> 7 ;
+8 [label="Total Proteins (g/dL) <= 7.8\nentropy = 0.9601\nsamples = 47\nvalue = [18, 29]"] ;
+0 -> 8 [labeldistance=2.5, labelangle=-45, headlabel="False"] ;
+9 [label="Platelets <= 416.5\nentropy = 0.8813\nsamples = 40\nvalue = [12, 28]"] ;
+8 -> 9 ;
+10 [label="entropy = 0.0\nsamples = 11\nvalue = [0, 11]"] ;
+9 -> 10 ;
+11 [label="entropy = 0.9784\nsamples = 29\nvalue = [12, 17]"] ;
+9 -> 11 ;
+12 [label="Haemoglobin (g/dL) <= 11.05\nentropy = 0.5917\nsamples = 7\nvalue = [6, 1]"] ;
+8 -> 12 ;
+13 [label="entropy = 0.0\nsamples = 1\nvalue = [0, 1]"] ;
+12 -> 13 ;
+14 [label="entropy = 0.0\nsamples = 6\nvalue = [6, 0]"] ;
+12 -> 14 ;
+}
