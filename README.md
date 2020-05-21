@@ -1,5 +1,5 @@
 # ML_Pipeline_Notebooks
-This repository is dedicated to providing example jupyter notebooks primarily for educational purposes. 
+This repository includes educational materials and a basic example machine learning analysis pipeline.  These materials were originally developed for a workshop series at the University of Pennsylvania organized jointly by IBI and LDI. 
 
 The single juptyer notebook currently included in this repository was designed to be paired with an introductary lecture on Machine learning at the University of Pennsylvania on 5/1/19. 
 
